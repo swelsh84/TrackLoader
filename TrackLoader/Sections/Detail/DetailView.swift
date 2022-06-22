@@ -5,6 +5,7 @@ struct DetailView: View {
 
     var body: some View {
         VStack {
+            // Similar to in TrackView, I'd like some caching options here.
             AsyncImage(url: URL(string: viewModel.track.artworkUrl60)) { image in
                 image
                     .resizable()

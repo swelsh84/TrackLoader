@@ -4,6 +4,7 @@ struct TrackView: View {
     var track: Track
     var body: some View {
         HStack {
+            // I would like to use a framework that provides better caching that AsyncImage does currently. Something like Kingfisher would be good.
             AsyncImage(url: URL(string: track.artworkUrl60)) { image in
                 image
             } placeholder: {
