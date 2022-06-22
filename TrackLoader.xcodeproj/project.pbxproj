@@ -113,6 +113,7 @@
 		200B8B1428635F4200C45FCA /* TrackLoaderTests */ = {
 			isa = PBXGroup;
 			children = (
+				200B8B2E2863610300C45FCA /* Models */,
 				200B8B1528635F4200C45FCA /* TrackLoaderTests.swift */,
 			);
 			path = TrackLoaderTests;
@@ -125,6 +126,13 @@
 				200B8B2128635F4200C45FCA /* TrackLoaderUITestsLaunchTests.swift */,
 			);
 			path = TrackLoaderUITests;
+			sourceTree = "<group>";
+		};
+		200B8B2E2863610300C45FCA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
