@@ -29,6 +29,7 @@
 		200B8B5228636A1400C45FCA /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5128636A1400C45FCA /* MainViewModel.swift */; };
 		200B8B5528636B9C00C45FCA /* TrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5428636B9C00C45FCA /* TrackView.swift */; };
 		200B8B5728636C1B00C45FCA /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5628636C1B00C45FCA /* Currency.swift */; };
+		200B8B5928636C5100C45FCA /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5828636C5100C45FCA /* CurrencyFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		200B8B5128636A1400C45FCA /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		200B8B5428636B9C00C45FCA /* TrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackView.swift; sourceTree = "<group>"; };
 		200B8B5628636C1B00C45FCA /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		200B8B5828636C5100C45FCA /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +236,7 @@
 			children = (
 				200B8B4E286369B800C45FCA /* LoadingState.swift */,
 				200B8B5628636C1B00C45FCA /* Currency.swift */,
+				200B8B5828636C5100C45FCA /* CurrencyFormatter.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -385,6 +388,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				200B8B4F286369B800C45FCA /* LoadingState.swift in Sources */,
+				200B8B5928636C5100C45FCA /* CurrencyFormatter.swift in Sources */,
 				200B8B3D2863656000C45FCA /* FileReader.swift in Sources */,
 				200B8B5528636B9C00C45FCA /* TrackView.swift in Sources */,
 				200B8B0728635F4000C45FCA /* ContentView.swift in Sources */,
