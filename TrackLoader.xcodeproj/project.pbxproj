@@ -31,6 +31,7 @@
 		200B8B5728636C1B00C45FCA /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5628636C1B00C45FCA /* Currency.swift */; };
 		200B8B5928636C5100C45FCA /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5828636C5100C45FCA /* CurrencyFormatter.swift */; };
 		200B8B5C28636CBB00C45FCA /* CurrencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5B28636CBB00C45FCA /* CurrencyTests.swift */; };
+		200B8B5E28636D5200C45FCA /* CurrencyFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5D28636D5100C45FCA /* CurrencyFormatterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		200B8B5628636C1B00C45FCA /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		200B8B5828636C5100C45FCA /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
 		200B8B5B28636CBB00C45FCA /* CurrencyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTests.swift; sourceTree = "<group>"; };
+		200B8B5D28636D5100C45FCA /* CurrencyFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,6 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				200B8B5B28636CBB00C45FCA /* CurrencyTests.swift */,
+				200B8B5D28636D5100C45FCA /* CurrencyFormatterTests.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -423,6 +426,7 @@
 			files = (
 				200B8B5C28636CBB00C45FCA /* CurrencyTests.swift in Sources */,
 				200B8B1628635F4200C45FCA /* TrackLoaderTests.swift in Sources */,
+				200B8B5E28636D5200C45FCA /* CurrencyFormatterTests.swift in Sources */,
 				200B8B392863637C00C45FCA /* TrackResponseTests.swift in Sources */,
 				200B8B302863614800C45FCA /* TrackTests.swift in Sources */,
 			);
