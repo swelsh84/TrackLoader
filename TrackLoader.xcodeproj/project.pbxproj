@@ -24,6 +24,15 @@
 		200B8B43286366AD00C45FCA /* MockTrackDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B42286366AD00C45FCA /* MockTrackDataSource.swift */; };
 		200B8B462863671400C45FCA /* DataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B452863671400C45FCA /* DataError.swift */; };
 		200B8B482863677600C45FCA /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B472863677600C45FCA /* NetworkError.swift */; };
+		200B8B4C2863695D00C45FCA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B4B2863695D00C45FCA /* MainView.swift */; };
+		200B8B4F286369B800C45FCA /* LoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B4E286369B800C45FCA /* LoadingState.swift */; };
+		200B8B5228636A1400C45FCA /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5128636A1400C45FCA /* MainViewModel.swift */; };
+		200B8B5528636B9C00C45FCA /* TrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5428636B9C00C45FCA /* TrackView.swift */; };
+		200B8B5728636C1B00C45FCA /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5628636C1B00C45FCA /* Currency.swift */; };
+		200B8B5928636C5100C45FCA /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5828636C5100C45FCA /* CurrencyFormatter.swift */; };
+		200B8B5C28636CBB00C45FCA /* CurrencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5B28636CBB00C45FCA /* CurrencyTests.swift */; };
+		200B8B5E28636D5200C45FCA /* CurrencyFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5D28636D5100C45FCA /* CurrencyFormatterTests.swift */; };
+		200B8B5F28636FBE00C45FCA /* tracks.json in Resources */ = {isa = PBXBuildFile; fileRef = 200B8B3E2863657400C45FCA /* tracks.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +74,14 @@
 		200B8B42286366AD00C45FCA /* MockTrackDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTrackDataSource.swift; sourceTree = "<group>"; };
 		200B8B452863671400C45FCA /* DataError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataError.swift; sourceTree = "<group>"; };
 		200B8B472863677600C45FCA /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		200B8B4B2863695D00C45FCA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		200B8B4E286369B800C45FCA /* LoadingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingState.swift; sourceTree = "<group>"; };
+		200B8B5128636A1400C45FCA /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		200B8B5428636B9C00C45FCA /* TrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackView.swift; sourceTree = "<group>"; };
+		200B8B5628636C1B00C45FCA /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		200B8B5828636C5100C45FCA /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
+		200B8B5B28636CBB00C45FCA /* CurrencyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTests.swift; sourceTree = "<group>"; };
+		200B8B5D28636D5100C45FCA /* CurrencyFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +132,8 @@
 		200B8B0328635F4000C45FCA /* TrackLoader */ = {
 			isa = PBXGroup;
 			children = (
+				200B8B4D286369A900C45FCA /* Utils */,
+				200B8B492863693A00C45FCA /* Sections */,
 				200B8B3F2863664900C45FCA /* Protocols */,
 				200B8B352863628A00C45FCA /* MockData */,
 				200B8B312863617900C45FCA /* Models */,
@@ -137,6 +156,7 @@
 		200B8B1428635F4200C45FCA /* TrackLoaderTests */ = {
 			isa = PBXGroup;
 			children = (
+				200B8B5A28636CA900C45FCA /* Utils */,
 				200B8B2E2863610300C45FCA /* Models */,
 				200B8B1528635F4200C45FCA /* TrackLoaderTests.swift */,
 			);
@@ -197,6 +217,59 @@
 				200B8B472863677600C45FCA /* NetworkError.swift */,
 			);
 			path = Error;
+			sourceTree = "<group>";
+		};
+		200B8B492863693A00C45FCA /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				200B8B4A2863694100C45FCA /* MainView */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		200B8B4A2863694100C45FCA /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				200B8B5328636B5200C45FCA /* Views */,
+				200B8B5028636A0500C45FCA /* ViewModels */,
+				200B8B4B2863695D00C45FCA /* MainView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		200B8B4D286369A900C45FCA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				200B8B4E286369B800C45FCA /* LoadingState.swift */,
+				200B8B5628636C1B00C45FCA /* Currency.swift */,
+				200B8B5828636C5100C45FCA /* CurrencyFormatter.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		200B8B5028636A0500C45FCA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				200B8B5128636A1400C45FCA /* MainViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		200B8B5328636B5200C45FCA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				200B8B5428636B9C00C45FCA /* TrackView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		200B8B5A28636CA900C45FCA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				200B8B5B28636CBB00C45FCA /* CurrencyTests.swift */,
+				200B8B5D28636D5100C45FCA /* CurrencyFormatterTests.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +376,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				200B8B5F28636FBE00C45FCA /* tracks.json in Resources */,
 				200B8B0C28635F4200C45FCA /* Preview Assets.xcassets in Resources */,
 				200B8B0928635F4200C45FCA /* Assets.xcassets in Resources */,
 			);
@@ -329,13 +403,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				200B8B4F286369B800C45FCA /* LoadingState.swift in Sources */,
+				200B8B5928636C5100C45FCA /* CurrencyFormatter.swift in Sources */,
 				200B8B3D2863656000C45FCA /* FileReader.swift in Sources */,
+				200B8B5528636B9C00C45FCA /* TrackView.swift in Sources */,
 				200B8B0728635F4000C45FCA /* ContentView.swift in Sources */,
 				200B8B37286362C600C45FCA /* MockData.swift in Sources */,
 				200B8B0528635F4000C45FCA /* TrackLoaderApp.swift in Sources */,
+				200B8B5728636C1B00C45FCA /* Currency.swift in Sources */,
+				200B8B5228636A1400C45FCA /* MainViewModel.swift in Sources */,
 				200B8B412863666800C45FCA /* TrackDataSource.swift in Sources */,
 				200B8B3B2863643100C45FCA /* TrackResponse.swift in Sources */,
 				200B8B462863671400C45FCA /* DataError.swift in Sources */,
+				200B8B4C2863695D00C45FCA /* MainView.swift in Sources */,
 				200B8B43286366AD00C45FCA /* MockTrackDataSource.swift in Sources */,
 				200B8B332863618F00C45FCA /* Track.swift in Sources */,
 				200B8B482863677600C45FCA /* NetworkError.swift in Sources */,
@@ -346,7 +426,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				200B8B5C28636CBB00C45FCA /* CurrencyTests.swift in Sources */,
 				200B8B1628635F4200C45FCA /* TrackLoaderTests.swift in Sources */,
+				200B8B5E28636D5200C45FCA /* CurrencyFormatterTests.swift in Sources */,
 				200B8B392863637C00C45FCA /* TrackResponseTests.swift in Sources */,
 				200B8B302863614800C45FCA /* TrackTests.swift in Sources */,
 			);
