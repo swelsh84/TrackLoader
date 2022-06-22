@@ -28,6 +28,7 @@
 		200B8B4F286369B800C45FCA /* LoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B4E286369B800C45FCA /* LoadingState.swift */; };
 		200B8B5228636A1400C45FCA /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5128636A1400C45FCA /* MainViewModel.swift */; };
 		200B8B5528636B9C00C45FCA /* TrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5428636B9C00C45FCA /* TrackView.swift */; };
+		200B8B5728636C1B00C45FCA /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5628636C1B00C45FCA /* Currency.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		200B8B4E286369B800C45FCA /* LoadingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingState.swift; sourceTree = "<group>"; };
 		200B8B5128636A1400C45FCA /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		200B8B5428636B9C00C45FCA /* TrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackView.swift; sourceTree = "<group>"; };
+		200B8B5628636C1B00C45FCA /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				200B8B4E286369B800C45FCA /* LoadingState.swift */,
+				200B8B5628636C1B00C45FCA /* Currency.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 				200B8B0728635F4000C45FCA /* ContentView.swift in Sources */,
 				200B8B37286362C600C45FCA /* MockData.swift in Sources */,
 				200B8B0528635F4000C45FCA /* TrackLoaderApp.swift in Sources */,
+				200B8B5728636C1B00C45FCA /* Currency.swift in Sources */,
 				200B8B5228636A1400C45FCA /* MainViewModel.swift in Sources */,
 				200B8B412863666800C45FCA /* TrackDataSource.swift in Sources */,
 				200B8B3B2863643100C45FCA /* TrackResponse.swift in Sources */,
