@@ -26,7 +26,7 @@ struct MainView: View {
     var content: some View {
         List {
             ForEach(viewModel.tracks, id: \.trackId) { track in
-                NavigationLink(destination: Text(track.trackName)) {
+                NavigationLink(destination: DetailView(viewModel: DetailViewModel(track: track))) {
                     TrackView(track: track)
                 }
             }
