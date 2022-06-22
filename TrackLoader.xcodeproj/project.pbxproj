@@ -19,6 +19,7 @@
 		200B8B37286362C600C45FCA /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B36286362C500C45FCA /* MockData.swift */; };
 		200B8B392863637C00C45FCA /* TrackResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B382863637C00C45FCA /* TrackResponseTests.swift */; };
 		200B8B3B2863643100C45FCA /* TrackResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B3A2863643100C45FCA /* TrackResponse.swift */; };
+		200B8B3D2863656000C45FCA /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B3C2863656000C45FCA /* FileReader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		200B8B36286362C500C45FCA /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		200B8B382863637C00C45FCA /* TrackResponseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackResponseTests.swift; sourceTree = "<group>"; };
 		200B8B3A2863643100C45FCA /* TrackResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackResponse.swift; sourceTree = "<group>"; };
+		200B8B3C2863656000C45FCA /* FileReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
+		200B8B3E2863657400C45FCA /* tracks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tracks.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +165,8 @@
 			isa = PBXGroup;
 			children = (
 				200B8B36286362C500C45FCA /* MockData.swift */,
+				200B8B3C2863656000C45FCA /* FileReader.swift */,
+				200B8B3E2863657400C45FCA /* tracks.json */,
 			);
 			path = MockData;
 			sourceTree = "<group>";
@@ -296,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				200B8B3D2863656000C45FCA /* FileReader.swift in Sources */,
 				200B8B0728635F4000C45FCA /* ContentView.swift in Sources */,
 				200B8B37286362C600C45FCA /* MockData.swift in Sources */,
 				200B8B0528635F4000C45FCA /* TrackLoaderApp.swift in Sources */,
