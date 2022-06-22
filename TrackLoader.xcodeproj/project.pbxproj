@@ -33,6 +33,7 @@
 		200B8B5C28636CBB00C45FCA /* CurrencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5B28636CBB00C45FCA /* CurrencyTests.swift */; };
 		200B8B5E28636D5200C45FCA /* CurrencyFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5D28636D5100C45FCA /* CurrencyFormatterTests.swift */; };
 		200B8B5F28636FBE00C45FCA /* tracks.json in Resources */ = {isa = PBXBuildFile; fileRef = 200B8B3E2863657400C45FCA /* tracks.json */; };
+		200B8B642863730200C45FCA /* MainViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B632863730200C45FCA /* MainViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		200B8B5828636C5100C45FCA /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
 		200B8B5B28636CBB00C45FCA /* CurrencyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTests.swift; sourceTree = "<group>"; };
 		200B8B5D28636D5100C45FCA /* CurrencyFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatterTests.swift; sourceTree = "<group>"; };
+		200B8B632863730200C45FCA /* MainViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 		200B8B1428635F4200C45FCA /* TrackLoaderTests */ = {
 			isa = PBXGroup;
 			children = (
+				200B8B62286372BC00C45FCA /* ViewModels */,
 				200B8B5A28636CA900C45FCA /* Utils */,
 				200B8B2E2863610300C45FCA /* Models */,
 				200B8B1528635F4200C45FCA /* TrackLoaderTests.swift */,
@@ -270,6 +273,14 @@
 				200B8B5D28636D5100C45FCA /* CurrencyFormatterTests.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		200B8B62286372BC00C45FCA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				200B8B632863730200C45FCA /* MainViewModelTests.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -429,6 +440,7 @@
 				200B8B5C28636CBB00C45FCA /* CurrencyTests.swift in Sources */,
 				200B8B1628635F4200C45FCA /* TrackLoaderTests.swift in Sources */,
 				200B8B5E28636D5200C45FCA /* CurrencyFormatterTests.swift in Sources */,
+				200B8B642863730200C45FCA /* MainViewModelTests.swift in Sources */,
 				200B8B392863637C00C45FCA /* TrackResponseTests.swift in Sources */,
 				200B8B302863614800C45FCA /* TrackTests.swift in Sources */,
 			);
