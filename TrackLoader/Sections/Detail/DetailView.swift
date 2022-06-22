@@ -32,7 +32,7 @@ struct DetailView: View {
             Spacer()
 
             VStack {
-                Text("\(viewModel.track.trackTimeMillis)")
+                Text("\(viewModel.track.trackTimeMillis.timeDisplay())")
                     .frame(maxWidth: .infinity, alignment: .leading)
 
                 Text("\(viewModel.track.releaseDate)")
