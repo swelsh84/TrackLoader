@@ -17,6 +17,8 @@
 		200B8B302863614800C45FCA /* TrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B2F2863614800C45FCA /* TrackTests.swift */; };
 		200B8B332863618F00C45FCA /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B322863618F00C45FCA /* Track.swift */; };
 		200B8B37286362C600C45FCA /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B36286362C500C45FCA /* MockData.swift */; };
+		200B8B392863637C00C45FCA /* TrackResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B382863637C00C45FCA /* TrackResponseTests.swift */; };
+		200B8B3B2863643100C45FCA /* TrackResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B3A2863643100C45FCA /* TrackResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,8 @@
 		200B8B2F2863614800C45FCA /* TrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackTests.swift; sourceTree = "<group>"; };
 		200B8B322863618F00C45FCA /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		200B8B36286362C500C45FCA /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		200B8B382863637C00C45FCA /* TrackResponseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackResponseTests.swift; sourceTree = "<group>"; };
+		200B8B3A2863643100C45FCA /* TrackResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				200B8B2F2863614800C45FCA /* TrackTests.swift */,
+				200B8B382863637C00C45FCA /* TrackResponseTests.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -148,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				200B8B322863618F00C45FCA /* Track.swift */,
+				200B8B3A2863643100C45FCA /* TrackResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -293,6 +299,7 @@
 				200B8B0728635F4000C45FCA /* ContentView.swift in Sources */,
 				200B8B37286362C600C45FCA /* MockData.swift in Sources */,
 				200B8B0528635F4000C45FCA /* TrackLoaderApp.swift in Sources */,
+				200B8B3B2863643100C45FCA /* TrackResponse.swift in Sources */,
 				200B8B332863618F00C45FCA /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				200B8B1628635F4200C45FCA /* TrackLoaderTests.swift in Sources */,
+				200B8B392863637C00C45FCA /* TrackResponseTests.swift in Sources */,
 				200B8B302863614800C45FCA /* TrackTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
