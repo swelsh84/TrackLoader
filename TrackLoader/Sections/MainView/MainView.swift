@@ -26,7 +26,9 @@ struct MainView: View {
     var content: some View {
         List {
             ForEach(viewModel.tracks, id: \.trackId) { track in
-                Text(track.trackName)
+                NavigationLink(destination: Text(track.trackName)) {
+                    TrackView(track: track)
+                }
             }
         }
         .listStyle(.plain)
