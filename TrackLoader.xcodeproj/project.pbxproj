@@ -20,6 +20,10 @@
 		200B8B392863637C00C45FCA /* TrackResponseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B382863637C00C45FCA /* TrackResponseTests.swift */; };
 		200B8B3B2863643100C45FCA /* TrackResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B3A2863643100C45FCA /* TrackResponse.swift */; };
 		200B8B3D2863656000C45FCA /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B3C2863656000C45FCA /* FileReader.swift */; };
+		200B8B412863666800C45FCA /* TrackDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B402863666800C45FCA /* TrackDataSource.swift */; };
+		200B8B43286366AD00C45FCA /* MockTrackDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B42286366AD00C45FCA /* MockTrackDataSource.swift */; };
+		200B8B462863671400C45FCA /* DataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B452863671400C45FCA /* DataError.swift */; };
+		200B8B482863677600C45FCA /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B472863677600C45FCA /* NetworkError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +61,10 @@
 		200B8B3A2863643100C45FCA /* TrackResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackResponse.swift; sourceTree = "<group>"; };
 		200B8B3C2863656000C45FCA /* FileReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
 		200B8B3E2863657400C45FCA /* tracks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tracks.json; sourceTree = "<group>"; };
+		200B8B402863666800C45FCA /* TrackDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDataSource.swift; sourceTree = "<group>"; };
+		200B8B42286366AD00C45FCA /* MockTrackDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTrackDataSource.swift; sourceTree = "<group>"; };
+		200B8B452863671400C45FCA /* DataError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataError.swift; sourceTree = "<group>"; };
+		200B8B472863677600C45FCA /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +115,7 @@
 		200B8B0328635F4000C45FCA /* TrackLoader */ = {
 			isa = PBXGroup;
 			children = (
+				200B8B3F2863664900C45FCA /* Protocols */,
 				200B8B352863628A00C45FCA /* MockData */,
 				200B8B312863617900C45FCA /* Models */,
 				200B8B0428635F4000C45FCA /* TrackLoaderApp.swift */,
@@ -155,6 +164,7 @@
 		200B8B312863617900C45FCA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				200B8B442863670100C45FCA /* Error */,
 				200B8B322863618F00C45FCA /* Track.swift */,
 				200B8B3A2863643100C45FCA /* TrackResponse.swift */,
 			);
@@ -167,8 +177,26 @@
 				200B8B36286362C500C45FCA /* MockData.swift */,
 				200B8B3C2863656000C45FCA /* FileReader.swift */,
 				200B8B3E2863657400C45FCA /* tracks.json */,
+				200B8B42286366AD00C45FCA /* MockTrackDataSource.swift */,
 			);
 			path = MockData;
+			sourceTree = "<group>";
+		};
+		200B8B3F2863664900C45FCA /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				200B8B402863666800C45FCA /* TrackDataSource.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		200B8B442863670100C45FCA /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				200B8B452863671400C45FCA /* DataError.swift */,
+				200B8B472863677600C45FCA /* NetworkError.swift */,
+			);
+			path = Error;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,8 +333,12 @@
 				200B8B0728635F4000C45FCA /* ContentView.swift in Sources */,
 				200B8B37286362C600C45FCA /* MockData.swift in Sources */,
 				200B8B0528635F4000C45FCA /* TrackLoaderApp.swift in Sources */,
+				200B8B412863666800C45FCA /* TrackDataSource.swift in Sources */,
 				200B8B3B2863643100C45FCA /* TrackResponse.swift in Sources */,
+				200B8B462863671400C45FCA /* DataError.swift in Sources */,
+				200B8B43286366AD00C45FCA /* MockTrackDataSource.swift in Sources */,
 				200B8B332863618F00C45FCA /* Track.swift in Sources */,
+				200B8B482863677600C45FCA /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
