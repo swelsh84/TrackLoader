@@ -21,6 +21,7 @@
 		200B8B3B2863643100C45FCA /* TrackResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B3A2863643100C45FCA /* TrackResponse.swift */; };
 		200B8B3D2863656000C45FCA /* FileReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B3C2863656000C45FCA /* FileReader.swift */; };
 		200B8B412863666800C45FCA /* TrackDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B402863666800C45FCA /* TrackDataSource.swift */; };
+		200B8B43286366AD00C45FCA /* MockTrackDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B42286366AD00C45FCA /* MockTrackDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		200B8B3C2863656000C45FCA /* FileReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileReader.swift; sourceTree = "<group>"; };
 		200B8B3E2863657400C45FCA /* tracks.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = tracks.json; sourceTree = "<group>"; };
 		200B8B402863666800C45FCA /* TrackDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDataSource.swift; sourceTree = "<group>"; };
+		200B8B42286366AD00C45FCA /* MockTrackDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockTrackDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +172,7 @@
 				200B8B36286362C500C45FCA /* MockData.swift */,
 				200B8B3C2863656000C45FCA /* FileReader.swift */,
 				200B8B3E2863657400C45FCA /* tracks.json */,
+				200B8B42286366AD00C45FCA /* MockTrackDataSource.swift */,
 			);
 			path = MockData;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				200B8B0528635F4000C45FCA /* TrackLoaderApp.swift in Sources */,
 				200B8B412863666800C45FCA /* TrackDataSource.swift in Sources */,
 				200B8B3B2863643100C45FCA /* TrackResponse.swift in Sources */,
+				200B8B43286366AD00C45FCA /* MockTrackDataSource.swift in Sources */,
 				200B8B332863618F00C45FCA /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
