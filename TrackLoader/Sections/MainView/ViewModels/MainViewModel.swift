@@ -29,6 +29,6 @@ final class MainViewModel: ObservableObject {
 
     private func process(_ response: TrackResponse) {
         self.loadingState = .loaded
-        self.tracks = response.results
+        self.tracks = response.results.sorted { $0.releaseDate > $1.releaseDate }
     }
 }
