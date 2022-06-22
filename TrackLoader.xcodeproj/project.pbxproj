@@ -30,6 +30,7 @@
 		200B8B5528636B9C00C45FCA /* TrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5428636B9C00C45FCA /* TrackView.swift */; };
 		200B8B5728636C1B00C45FCA /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5628636C1B00C45FCA /* Currency.swift */; };
 		200B8B5928636C5100C45FCA /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5828636C5100C45FCA /* CurrencyFormatter.swift */; };
+		200B8B5C28636CBB00C45FCA /* CurrencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5B28636CBB00C45FCA /* CurrencyTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		200B8B5428636B9C00C45FCA /* TrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackView.swift; sourceTree = "<group>"; };
 		200B8B5628636C1B00C45FCA /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		200B8B5828636C5100C45FCA /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
+		200B8B5B28636CBB00C45FCA /* CurrencyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 		200B8B1428635F4200C45FCA /* TrackLoaderTests */ = {
 			isa = PBXGroup;
 			children = (
+				200B8B5A28636CA900C45FCA /* Utils */,
 				200B8B2E2863610300C45FCA /* Models */,
 				200B8B1528635F4200C45FCA /* TrackLoaderTests.swift */,
 			);
@@ -255,6 +258,14 @@
 				200B8B5428636B9C00C45FCA /* TrackView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		200B8B5A28636CA900C45FCA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				200B8B5B28636CBB00C45FCA /* CurrencyTests.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -410,6 +421,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				200B8B5C28636CBB00C45FCA /* CurrencyTests.swift in Sources */,
 				200B8B1628635F4200C45FCA /* TrackLoaderTests.swift in Sources */,
 				200B8B392863637C00C45FCA /* TrackResponseTests.swift in Sources */,
 				200B8B302863614800C45FCA /* TrackTests.swift in Sources */,
