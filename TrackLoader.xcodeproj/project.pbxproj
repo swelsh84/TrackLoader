@@ -34,6 +34,10 @@
 		200B8B5E28636D5200C45FCA /* CurrencyFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5D28636D5100C45FCA /* CurrencyFormatterTests.swift */; };
 		200B8B5F28636FBE00C45FCA /* tracks.json in Resources */ = {isa = PBXBuildFile; fileRef = 200B8B3E2863657400C45FCA /* tracks.json */; };
 		200B8B642863730200C45FCA /* MainViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B632863730200C45FCA /* MainViewModelTests.swift */; };
+		200B8B682863747E00C45FCA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B672863747D00C45FCA /* DetailView.swift */; };
+		200B8B6A2863748900C45FCA /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B692863748900C45FCA /* DetailViewModel.swift */; };
+		200B8B6D286375DC00C45FCA /* Int-FormatTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B6C286375DC00C45FCA /* Int-FormatTime.swift */; };
+		200B8B6F286376CB00C45FCA /* Date-FormatDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B6E286376CB00C45FCA /* Date-FormatDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +88,10 @@
 		200B8B5B28636CBB00C45FCA /* CurrencyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTests.swift; sourceTree = "<group>"; };
 		200B8B5D28636D5100C45FCA /* CurrencyFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatterTests.swift; sourceTree = "<group>"; };
 		200B8B632863730200C45FCA /* MainViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModelTests.swift; sourceTree = "<group>"; };
+		200B8B672863747D00C45FCA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		200B8B692863748900C45FCA /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		200B8B6C286375DC00C45FCA /* Int-FormatTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int-FormatTime.swift"; sourceTree = "<group>"; };
+		200B8B6E286376CB00C45FCA /* Date-FormatDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date-FormatDate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +142,7 @@
 		200B8B0328635F4000C45FCA /* TrackLoader */ = {
 			isa = PBXGroup;
 			children = (
+				200B8B6B2863759500C45FCA /* Extensions */,
 				200B8B4D286369A900C45FCA /* Utils */,
 				200B8B492863693A00C45FCA /* Sections */,
 				200B8B3F2863664900C45FCA /* Protocols */,
@@ -225,6 +234,7 @@
 		200B8B492863693A00C45FCA /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				200B8B652863741100C45FCA /* Detail */,
 				200B8B4A2863694100C45FCA /* MainView */,
 			);
 			path = Sections;
@@ -281,6 +291,32 @@
 				200B8B632863730200C45FCA /* MainViewModelTests.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		200B8B652863741100C45FCA /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				200B8B662863746C00C45FCA /* ViewModels */,
+				200B8B672863747D00C45FCA /* DetailView.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		200B8B662863746C00C45FCA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				200B8B692863748900C45FCA /* DetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		200B8B6B2863759500C45FCA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				200B8B6C286375DC00C45FCA /* Int-FormatTime.swift */,
+				200B8B6E286376CB00C45FCA /* Date-FormatDate.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,6 +452,7 @@
 			files = (
 				200B8B4F286369B800C45FCA /* LoadingState.swift in Sources */,
 				200B8B5928636C5100C45FCA /* CurrencyFormatter.swift in Sources */,
+				200B8B682863747E00C45FCA /* DetailView.swift in Sources */,
 				200B8B3D2863656000C45FCA /* FileReader.swift in Sources */,
 				200B8B5528636B9C00C45FCA /* TrackView.swift in Sources */,
 				200B8B0728635F4000C45FCA /* ContentView.swift in Sources */,
@@ -426,9 +463,12 @@
 				200B8B412863666800C45FCA /* TrackDataSource.swift in Sources */,
 				200B8B3B2863643100C45FCA /* TrackResponse.swift in Sources */,
 				200B8B462863671400C45FCA /* DataError.swift in Sources */,
+				200B8B6A2863748900C45FCA /* DetailViewModel.swift in Sources */,
+				200B8B6F286376CB00C45FCA /* Date-FormatDate.swift in Sources */,
 				200B8B4C2863695D00C45FCA /* MainView.swift in Sources */,
 				200B8B43286366AD00C45FCA /* MockTrackDataSource.swift in Sources */,
 				200B8B332863618F00C45FCA /* Track.swift in Sources */,
+				200B8B6D286375DC00C45FCA /* Int-FormatTime.swift in Sources */,
 				200B8B482863677600C45FCA /* NetworkError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
