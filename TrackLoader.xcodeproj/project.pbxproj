@@ -27,6 +27,7 @@
 		200B8B4C2863695D00C45FCA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B4B2863695D00C45FCA /* MainView.swift */; };
 		200B8B4F286369B800C45FCA /* LoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B4E286369B800C45FCA /* LoadingState.swift */; };
 		200B8B5228636A1400C45FCA /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5128636A1400C45FCA /* MainViewModel.swift */; };
+		200B8B5528636B9C00C45FCA /* TrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5428636B9C00C45FCA /* TrackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		200B8B4B2863695D00C45FCA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		200B8B4E286369B800C45FCA /* LoadingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingState.swift; sourceTree = "<group>"; };
 		200B8B5128636A1400C45FCA /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		200B8B5428636B9C00C45FCA /* TrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +220,7 @@
 		200B8B4A2863694100C45FCA /* MainView */ = {
 			isa = PBXGroup;
 			children = (
+				200B8B5328636B5200C45FCA /* Views */,
 				200B8B5028636A0500C45FCA /* ViewModels */,
 				200B8B4B2863695D00C45FCA /* MainView.swift */,
 			);
@@ -238,6 +241,14 @@
 				200B8B5128636A1400C45FCA /* MainViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		200B8B5328636B5200C45FCA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				200B8B5428636B9C00C45FCA /* TrackView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,6 +383,7 @@
 			files = (
 				200B8B4F286369B800C45FCA /* LoadingState.swift in Sources */,
 				200B8B3D2863656000C45FCA /* FileReader.swift in Sources */,
+				200B8B5528636B9C00C45FCA /* TrackView.swift in Sources */,
 				200B8B0728635F4000C45FCA /* ContentView.swift in Sources */,
 				200B8B37286362C600C45FCA /* MockData.swift in Sources */,
 				200B8B0528635F4000C45FCA /* TrackLoaderApp.swift in Sources */,
