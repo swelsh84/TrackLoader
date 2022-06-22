@@ -35,7 +35,7 @@ struct DetailView: View {
                 Text("\(viewModel.track.trackTimeMillis.timeDisplay())")
                     .frame(maxWidth: .infinity, alignment: .leading)
 
-                Text("\(viewModel.track.releaseDate)")
+                Text("\(viewModel.track.releaseDate.formatDate())")
                     .frame(maxWidth: .infinity, alignment: .leading)
             }
             .padding()
