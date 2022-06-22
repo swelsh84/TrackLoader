@@ -35,6 +35,7 @@ struct MainView: View {
     }
 }
 
+// Here, I would normally like to create more Previews, showing off different numbers of tracks loaded, light/dark mode, as well as different loading states.
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
         MainView(viewModel: MainViewModel(dataSource: SuccessReturningMockTracksDataSource()))
