@@ -28,7 +28,7 @@ struct Track: Decodable {
     var trackNumber: Int
     var trackTimeMillis: Int
     var country: String
-    var currency: String
+    var currency: Currency
     var primaryGenreName: String
     var isStreamable: Bool
 }

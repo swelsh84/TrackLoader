@@ -32,7 +32,7 @@ extension Track {
         trackNumber: 2,
         trackTimeMillis: 239840,
         country: "USA",
-        currency: "USD",
+        currency: .usd,
         primaryGenreName: "Alternative",
         isStreamable: true
     )
