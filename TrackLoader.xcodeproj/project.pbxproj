@@ -32,6 +32,7 @@
 		200B8B5928636C5100C45FCA /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5828636C5100C45FCA /* CurrencyFormatter.swift */; };
 		200B8B5C28636CBB00C45FCA /* CurrencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5B28636CBB00C45FCA /* CurrencyTests.swift */; };
 		200B8B5E28636D5200C45FCA /* CurrencyFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5D28636D5100C45FCA /* CurrencyFormatterTests.swift */; };
+		200B8B5F28636FBE00C45FCA /* tracks.json in Resources */ = {isa = PBXBuildFile; fileRef = 200B8B3E2863657400C45FCA /* tracks.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -375,6 +376,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				200B8B5F28636FBE00C45FCA /* tracks.json in Resources */,
 				200B8B0C28635F4200C45FCA /* Preview Assets.xcassets in Resources */,
 				200B8B0928635F4200C45FCA /* Assets.xcassets in Resources */,
 			);
