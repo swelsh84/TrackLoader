@@ -14,6 +14,8 @@
 		200B8B1628635F4200C45FCA /* TrackLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B1528635F4200C45FCA /* TrackLoaderTests.swift */; };
 		200B8B2028635F4200C45FCA /* TrackLoaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B1F28635F4200C45FCA /* TrackLoaderUITests.swift */; };
 		200B8B2228635F4200C45FCA /* TrackLoaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B2128635F4200C45FCA /* TrackLoaderUITestsLaunchTests.swift */; };
+		200B8B302863614800C45FCA /* TrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B2F2863614800C45FCA /* TrackTests.swift */; };
+		200B8B332863618F00C45FCA /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B322863618F00C45FCA /* Track.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		200B8B1B28635F4200C45FCA /* TrackLoaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackLoaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		200B8B1F28635F4200C45FCA /* TrackLoaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackLoaderUITests.swift; sourceTree = "<group>"; };
 		200B8B2128635F4200C45FCA /* TrackLoaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackLoaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		200B8B2F2863614800C45FCA /* TrackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackTests.swift; sourceTree = "<group>"; };
+		200B8B322863618F00C45FCA /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,7 @@
 		200B8B0328635F4000C45FCA /* TrackLoader */ = {
 			isa = PBXGroup;
 			children = (
+				200B8B312863617900C45FCA /* Models */,
 				200B8B0428635F4000C45FCA /* TrackLoaderApp.swift */,
 				200B8B0628635F4000C45FCA /* ContentView.swift */,
 				200B8B0828635F4200C45FCA /* Assets.xcassets */,
@@ -131,6 +136,15 @@
 		200B8B2E2863610300C45FCA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				200B8B2F2863614800C45FCA /* TrackTests.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		200B8B312863617900C45FCA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				200B8B322863618F00C45FCA /* Track.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -267,6 +281,7 @@
 			files = (
 				200B8B0728635F4000C45FCA /* ContentView.swift in Sources */,
 				200B8B0528635F4000C45FCA /* TrackLoaderApp.swift in Sources */,
+				200B8B332863618F00C45FCA /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				200B8B1628635F4200C45FCA /* TrackLoaderTests.swift in Sources */,
+				200B8B302863614800C45FCA /* TrackTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
