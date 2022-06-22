@@ -3,6 +3,8 @@ import XCTest
 
 class TrackTests: XCTestCase {
 
+    // This is a section that I would like to flesh out in the future, adding more tests to check a range of examples when creating Tracks, as well as updating properties.
+
     func test_createTrack() {
         let track = Track(
             wrapperType: "track",
