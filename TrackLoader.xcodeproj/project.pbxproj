@@ -26,6 +26,7 @@
 		200B8B482863677600C45FCA /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B472863677600C45FCA /* NetworkError.swift */; };
 		200B8B4C2863695D00C45FCA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B4B2863695D00C45FCA /* MainView.swift */; };
 		200B8B4F286369B800C45FCA /* LoadingState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B4E286369B800C45FCA /* LoadingState.swift */; };
+		200B8B5228636A1400C45FCA /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B5128636A1400C45FCA /* MainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		200B8B472863677600C45FCA /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		200B8B4B2863695D00C45FCA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		200B8B4E286369B800C45FCA /* LoadingState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingState.swift; sourceTree = "<group>"; };
+		200B8B5128636A1400C45FCA /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +218,7 @@
 		200B8B4A2863694100C45FCA /* MainView */ = {
 			isa = PBXGroup;
 			children = (
+				200B8B5028636A0500C45FCA /* ViewModels */,
 				200B8B4B2863695D00C45FCA /* MainView.swift */,
 			);
 			path = MainView;
@@ -227,6 +230,14 @@
 				200B8B4E286369B800C45FCA /* LoadingState.swift */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		200B8B5028636A0500C45FCA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				200B8B5128636A1400C45FCA /* MainViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -364,6 +375,7 @@
 				200B8B0728635F4000C45FCA /* ContentView.swift in Sources */,
 				200B8B37286362C600C45FCA /* MockData.swift in Sources */,
 				200B8B0528635F4000C45FCA /* TrackLoaderApp.swift in Sources */,
+				200B8B5228636A1400C45FCA /* MainViewModel.swift in Sources */,
 				200B8B412863666800C45FCA /* TrackDataSource.swift in Sources */,
 				200B8B3B2863643100C45FCA /* TrackResponse.swift in Sources */,
 				200B8B462863671400C45FCA /* DataError.swift in Sources */,
