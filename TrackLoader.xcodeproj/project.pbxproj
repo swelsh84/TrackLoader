@@ -38,6 +38,7 @@
 		200B8B6A2863748900C45FCA /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B692863748900C45FCA /* DetailViewModel.swift */; };
 		200B8B6D286375DC00C45FCA /* Int-FormatTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B6C286375DC00C45FCA /* Int-FormatTime.swift */; };
 		200B8B6F286376CB00C45FCA /* Date-FormatDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B6E286376CB00C45FCA /* Date-FormatDate.swift */; };
+		200B8B712863793E00C45FCA /* LiveTrackDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 200B8B702863793E00C45FCA /* LiveTrackDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,7 @@
 		200B8B692863748900C45FCA /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		200B8B6C286375DC00C45FCA /* Int-FormatTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int-FormatTime.swift"; sourceTree = "<group>"; };
 		200B8B6E286376CB00C45FCA /* Date-FormatDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date-FormatDate.swift"; sourceTree = "<group>"; };
+		200B8B702863793E00C45FCA /* LiveTrackDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTrackDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +248,7 @@
 				200B8B5328636B5200C45FCA /* Views */,
 				200B8B5028636A0500C45FCA /* ViewModels */,
 				200B8B4B2863695D00C45FCA /* MainView.swift */,
+				200B8B702863793E00C45FCA /* LiveTrackDataSource.swift */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -468,6 +471,7 @@
 				200B8B4C2863695D00C45FCA /* MainView.swift in Sources */,
 				200B8B43286366AD00C45FCA /* MockTrackDataSource.swift in Sources */,
 				200B8B332863618F00C45FCA /* Track.swift in Sources */,
+				200B8B712863793E00C45FCA /* LiveTrackDataSource.swift in Sources */,
 				200B8B6D286375DC00C45FCA /* Int-FormatTime.swift in Sources */,
 				200B8B482863677600C45FCA /* NetworkError.swift in Sources */,
 			);
