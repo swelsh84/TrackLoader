@@ -2,7 +2,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        MainView(viewModel: MainViewModel(dataSource: SuccessReturningMockTracksDataSource()))
+        MainView(viewModel: MainViewModel(dataSource: LiveTrackDataSource()))
     }
 }
 
